@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícone (marca) da VGR — recorte do símbolo "V" duplo da logo oficial -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="105 315 265 205" xml:space="preserve">
+<style type="text/css">
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#29235C;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#4BAF4F;}
+</style>
+<g>
+	<polygon class="st3" points="281.19,335.76 216.64,435.58 175.56,371.73 153.15,371.73 216.64,469.93 291.19,355.16
+		291.33,355.43 333.61,355.43 346.28,335.76 		"/>
+	<g>
+		<polygon class="st4" points="229.04,389.92 194.23,335.76 129.14,335.76 141.81,355.43 184.09,355.43 184.23,355.16
+			217.7,406.89 			"/>
+		<polygon class="st4" points="298.66,373.62 226.77,484.48 237.58,502.26 321.2,373.62 			"/>
+	</g>
+</g>
+</svg>

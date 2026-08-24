@@ -1,0 +1,290 @@
+[
+  {
+    "item": "1",
+    "descricao": "ACESSÓRIOS E ADAPTAÇÕES ESPECIAIS PARA SEREM INSTALADOS EM VEÍCULOS AUTOMOTORES PERTENCENTES OU QUE FOREM DESTINADOS A PESSOAS COM DEFICIÊNCIA FÍSICA",
+    "ncmColuna": null,
+    "ncmCandidatos": [],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.1",
+    "descricao": "Comando de embreagem manual, suas partes e acessórios",
+    "ncmColuna": "8708.99.10",
+    "ncmCandidatos": [
+      "8708.99.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.2",
+    "descricao": "Comando de freio manual, suas partes e acessórios",
+    "ncmColuna": "8708.99.10",
+    "ncmCandidatos": [
+      "8708.99.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.3",
+    "descricao": "Comando de acelerador manual, suas partes e acessórios",
+    "ncmColuna": "8708.99.10",
+    "ncmCandidatos": [
+      "8708.99.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.4",
+    "descricao": "Inversão do pedal do acelerador, suas partes e acessórios",
+    "ncmColuna": "8708.99.10",
+    "ncmCandidatos": [
+      "8708.99.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.5",
+    "descricao": "Prolongamento de pedais, suas partes e acessórios",
+    "ncmColuna": "8708.99.10",
+    "ncmCandidatos": [
+      "8708.99.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.6",
+    "descricao": "Empunhadura, suas partes e acessórios",
+    "ncmColuna": "8708.29.99",
+    "ncmCandidatos": [
+      "8708.29.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.7",
+    "descricao": "Servo acionadores de volante, suas partes e acessórios",
+    "ncmColuna": "8708.99.10",
+    "ncmCandidatos": [
+      "8708.99.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.8",
+    "descricao": "Deslocamento de comandos do painel, suas partes e acessórios",
+    "ncmColuna": "8708.29.99",
+    "ncmCandidatos": [
+      "8708.29.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.9",
+    "descricao": "Plataforma giratória para deslocamento giratório do assento de veículo, suas partes e acessórios",
+    "ncmColuna": "8708.29.99",
+    "ncmCandidatos": [
+      "8708.29.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.10",
+    "descricao": "Trilho elétrico para deslocamento do assento dianteiro para outra parte do interior do veículo, suas partes e acessórios",
+    "ncmColuna": "8708.29.99",
+    "ncmCandidatos": [
+      "8708.29.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.11",
+    "descricao": "Plataforma de elevação para cadeira de rodas, manual, eletro-hidráulica ou eletromecânica",
+    "ncmColuna": "8428.90.90",
+    "ncmCandidatos": [
+      "8428.90.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.12",
+    "descricao": "Rampa para cadeira de rodas, suas partes e acessórios",
+    "ncmColuna": "8708.29.99",
+    "ncmCandidatos": [
+      "8708.29.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "1.13",
+    "descricao": "Guincho para transportar cadeira de rodas",
+    "ncmColuna": "8425.31.10",
+    "ncmCandidatos": [
+      "8425.31.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2",
+    "descricao": "PRODUTOS DESTINADOS A USO DE PESSOA COM DEFICIÊNCIA VISUAL",
+    "ncmColuna": null,
+    "ncmCandidatos": [],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2.1",
+    "descricao": "Bengala inteiriça, dobrável ou telescópica, com ponteira de náilon",
+    "ncmColuna": "6602.00.00",
+    "ncmCandidatos": [
+      "6602.00.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2.2",
+    "descricao": "Relógio em braille, com sintetizador de voz e mostrador ampliado",
+    "ncmColuna": "9102.11.10 9102.11.90 9102.91.00",
+    "ncmCandidatos": [
+      "9102.11.10",
+      "9102.11.90",
+      "9102.91.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2.3",
+    "descricao": "Termômetro digital com sistema de voz",
+    "ncmColuna": "9025.19.90",
+    "ncmCandidatos": [
+      "9025.19.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2.4",
+    "descricao": "Calculadora digital com sistema de voz, com verbalização dos ajustes de minutos e horas, tanto no modo horário, como no modo alarme, e comunicação por voz dos dígitos de cálculo e resultados",
+    "ncmColuna": "8470.10.00 8470.29.00",
+    "ncmCandidatos": [
+      "8470.10.00",
+      "8470.29.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2.5",
+    "descricao": "Agenda eletrônica com teclado em braille, com ou sem sintetizador de voz",
+    "ncmColuna": "8543.70.99",
+    "ncmCandidatos": [
+      "8543.70.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2.6",
+    "descricao": "Reglete para escrita em braille",
+    "ncmColuna": "9017.20.00",
+    "ncmCandidatos": [
+      "9017.20.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2.7",
+    "descricao": "Display braille e teclado em Braille para uso em microcomputador, com sistema interativo para introdução e leitura de dados por meio de tabelas de caracteres Braille",
+    "ncmColuna": "8471.60.90",
+    "ncmCandidatos": [
+      "8471.60.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2.8",
+    "descricao": "Máquina de escrever para escrita em braille, manual ou elétrica, com teclado de datilografia comum ou na formação Braille",
+    "ncmColuna": "8472.90.99",
+    "ncmCandidatos": [
+      "8472.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2.9",
+    "descricao": "Impressora de caracteres em braille para uso com microcomputadores, com sistema de folha solta ou dois lados da folha, com ou sem sistema de comando de voz ou sistema acústico",
+    "ncmColuna": "8443.32.22",
+    "ncmCandidatos": [
+      "8443.32.22"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2.10",
+    "descricao": "Equipamento sintetizador para reprodução em voz de sinais gerados por microcomputadores, permitida a leitura de dados de arquivos, de uso interno ou externo, com padrão de protocolo SSIL de interface com softwares leitores de tela",
+    "ncmColuna": "8471.80.00",
+    "ncmCandidatos": [
+      "8471.80.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "3",
+    "descricao": "PRODUTOS DESTINADOS AO USO DE PESSOAS COM DEFICIÊNCIA AUDITIVA",
+    "ncmColuna": null,
+    "ncmCandidatos": [],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "3.1",
+    "descricao": "Aparelho telefônico com teclado alfanumérico e visor luminoso, com ou sem impressora embutida, que permite converter sinais transmitidos por sistema telefônico em caracteres e símbolos",
+    "ncmColuna": "8517.1",
+    "ncmCandidatos": [
+      "8517.1"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "3.2",
+    "descricao": "Relógio despertador vibratório e/ou luminoso",
+    "ncmColuna": "9103.10.00 9105.11.00",
+    "ncmCandidatos": [
+      "9103.10.00",
+      "9105.11.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "3.3",
+    "descricao": "Unidades de entrada de dados tipo mouse controláveis pelo movimento dos olhos para deficientes",
+    "ncmColuna": "8471.60.53",
+    "ncmCandidatos": [
+      "8471.60.53"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  }
+]

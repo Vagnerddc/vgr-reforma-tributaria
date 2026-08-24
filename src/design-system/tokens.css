@@ -1,0 +1,89 @@
+/*
+ * Tokens do Design System VGR.
+ * Paleta derivada das cores oficiais da logo (src/assets/vgr/logo-vgr.svg):
+ * #29235C (navy) e #4BAF4F (verde) — ver protótipo aprovado em /tmp/vgr-proposta/prototipo.html.
+ * Não redefinir --vgr-ink/--vgr-accent com outros hex sem atualizar a logo de referência.
+ */
+:root {
+  --vgr-ink: #29235c;
+  --vgr-ink-2: #1c1846;
+  --vgr-accent: #4baf4f;
+  --vgr-accent-ink: #2f7d33;
+  --vgr-accent-soft: rgba(75, 175, 79, 0.13);
+  --vgr-gold: #c98a2e;
+  --vgr-gold-soft: rgba(201, 138, 46, 0.14);
+  --vgr-danger: #c24b5c;
+  --vgr-danger-soft: rgba(194, 75, 92, 0.12);
+  --vgr-info: #5d5fb8;
+  --vgr-info-soft: rgba(93, 95, 184, 0.12);
+
+  --vgr-bg: #f6f5fa;
+  --vgr-surface: #ffffff;
+  --vgr-surface-2: #efedf6;
+  --vgr-surface-3: #e3e0ef;
+  --vgr-border: #dbd8e8;
+  --vgr-text: #29235c;
+  --vgr-text-muted: #6b6690;
+  --vgr-text-faint: #9691b3;
+
+  --vgr-shadow: 0 1px 2px rgba(41, 35, 92, 0.06), 0 12px 28px -14px rgba(41, 35, 92, 0.16);
+  --vgr-radius-sm: 8px;
+  --vgr-radius: 12px;
+  --vgr-font: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --vgr-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  --vgr-dur: 0.18s;
+
+  --vgr-space-1: 4px;
+  --vgr-space-2: 8px;
+  --vgr-space-3: 12px;
+  --vgr-space-4: 16px;
+  --vgr-space-5: 24px;
+  --vgr-space-6: 32px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --vgr-ink: #ece9f7;
+    --vgr-ink-2: #ece9f7;
+    --vgr-accent: #63c267;
+    --vgr-accent-ink: #9fe3a2;
+    --vgr-accent-soft: rgba(99, 194, 103, 0.16);
+    --vgr-gold: #e0a63e;
+    --vgr-gold-soft: rgba(224, 166, 62, 0.16);
+    --vgr-danger: #dd6b7d;
+    --vgr-danger-soft: rgba(221, 107, 125, 0.16);
+    --vgr-info: #8b84da;
+    --vgr-info-soft: rgba(139, 132, 218, 0.16);
+    --vgr-bg: #14112a;
+    --vgr-surface: #1c1838;
+    --vgr-surface-2: #241f47;
+    --vgr-surface-3: #2e2856;
+    --vgr-border: #362f5f;
+    --vgr-text: #ece9f7;
+    --vgr-text-muted: #b4aed0;
+    --vgr-text-faint: #7d77a0;
+    --vgr-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 28px -14px rgba(0, 0, 0, 0.6);
+  }
+}
+:root[data-theme="dark"] {
+  --vgr-ink: #ece9f7;
+  --vgr-ink-2: #ece9f7;
+  --vgr-accent: #63c267;
+  --vgr-accent-ink: #9fe3a2;
+  --vgr-accent-soft: rgba(99, 194, 103, 0.16);
+  --vgr-gold: #e0a63e;
+  --vgr-gold-soft: rgba(224, 166, 62, 0.16);
+  --vgr-danger: #dd6b7d;
+  --vgr-danger-soft: rgba(221, 107, 125, 0.16);
+  --vgr-info: #8b84da;
+  --vgr-info-soft: rgba(139, 132, 218, 0.16);
+  --vgr-bg: #14112a;
+  --vgr-surface: #1c1838;
+  --vgr-surface-2: #241f47;
+  --vgr-surface-3: #2e2856;
+  --vgr-border: #362f5f;
+  --vgr-text: #ece9f7;
+  --vgr-text-muted: #b4aed0;
+  --vgr-text-faint: #7d77a0;
+  --vgr-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 12px 28px -14px rgba(0, 0, 0, 0.6);
+}

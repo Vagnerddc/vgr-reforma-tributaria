@@ -1,0 +1,22 @@
+/*
+ * Reset mínimo. O CSS de scaffolding do template (largura fixa de #root,
+ * text-align:center herdado, tipografia solta) foi removido — estava
+ * cascateando por cima do Design System real (src/design-system/), inclusive
+ * limitando a largura útil da tela a 1126px centrados, o que achatava o
+ * AppShell (sidebar + conteúdo full-width). Tokens de cor/tipografia/espaço
+ * vivem em design-system/tokens.css.
+ */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}

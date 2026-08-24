@@ -1,0 +1,67 @@
+[
+  {
+    "item": 1,
+    "descricao": "Ovos da subposição 0407.2 da NCM/SH",
+    "ncmCandidatos": [
+      "0407.2"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 2,
+    "descricao": "Produtos hortícolas das posições 07.01, 07.02.00.00, 07.03, 07.04, 07.05, 07.06, 0707.00.00, 07.08, 07.09 e 07.10, exceto os cogumelos e trufas classificados na subposição 0709.5 e no código 0710.80.00 da NCM/SH",
+    "ncmCandidatos": [
+      "07.01",
+      "07.02.00.00",
+      "07.03",
+      "07.04",
+      "07.05",
+      "07.06",
+      "0707.00.00",
+      "07.08",
+      "07.09",
+      "07.10"
+    ],
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": 3,
+    "descricao": "Frutas frescas ou refrigeradas e frutas congeladas sem adição de açúcar ou de outros edulcorantes classificadas nas posições 08.03, 08.04, 08.05, 08.06, 08.07, 08.08, 08.09, 08.10 e 08.11 da NCM/SH",
+    "ncmCandidatos": [
+      "08.03",
+      "08.04",
+      "08.05",
+      "08.06",
+      "08.07",
+      "08.08",
+      "08.09",
+      "08.10",
+      "08.11"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 4,
+    "descricao": "Plantas e produtos de floricultura relativos à horticultura e cultivados para fins alimentares, ornamentais ou medicinais classificados no Capítulo 6 da NCM/SH",
+    "ncmCandidatos": [
+      "06"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 5,
+    "descricao": "Raízes e tubérculos da posição 07.14 da NCM/SH",
+    "ncmCandidatos": [
+      "07.14"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 6,
+    "descricao": "Cocos da subposição 0801.1 da NCM/SH",
+    "ncmCandidatos": [
+      "0801.1"
+    ],
+    "temExcecaoNaoModelada": false
+  }
+]

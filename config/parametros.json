@@ -1,0 +1,118 @@
+{
+  "$schema": "./parametros.schema.json",
+  "versao": "2026.08.03",
+  "fontes": [
+    {
+      "descricao": "EC 132/2023",
+      "url": "https://barbieriadvogados.com/lc-214/"
+    },
+    {
+      "descricao": "LC 214/2025",
+      "url": "https://escolasuperioresn.com.br/lcn-214-2025-guia-cbs-ibs-is/"
+    },
+    {
+      "descricao": "Nota Técnica Alíquotas de Referência - Ministério da Fazenda",
+      "url": "https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria/regulamentacao-da-reforma-tributaria/lei-geral-do-ibs-da-cbs-e-do-imposto-seletivo/notas/nota-tecnica-aliquotas_2024-07-01_sertmf-1.pdf"
+    },
+    {
+      "descricao": "Split Payment - Decreto 12.955/2026",
+      "url": "https://fenafisco.org.br/30/04/2026/regulamento-da-reforma-tributaria-preve-inicio-do-split-payment-com-pix-boleto-e-transferencias-cartoes-ficam-para-depois/"
+    },
+    {
+      "descricao": "Diferimento insumos agrícolas - ConJur",
+      "url": "https://www.conjur.com.br/2026-jan-17/diferimento-de-ibs-e-cbs-de-insumos-agricolas-a-conta-vai-ficar-para-o-produtor-rural/"
+    }
+  ],
+  "notaImportante": "Alíquotas de referência, percentuais de crédito do Simples e cronograma detalhado do split payment ainda estão em regulamentação. Os valores abaixo são estimativas com base nas fontes públicas mais recentes (consulta em 30/07/2026) e DEVEM ser revisados periodicamente pelo escritório à medida que o Comitê Gestor e a Receita Federal publicarem normas definitivas.",
+  "anos": {
+    "inicioTeste": 2026,
+    "inicioDestaqueObrigatorioNFe": "2026-08-03",
+    "inicioCobrancaEfetiva": 2027,
+    "inicioJanelaOpcaoHibrido": "2026-09-01",
+    "inicioTransicaoIcmsIss": 2029,
+    "fimTransicaoIcmsIss": 2032,
+    "sistemaPleno": 2033
+  },
+  "aliquotas": {
+    "cbs": {
+      "2026": 0.009,
+      "2027": 0.0927,
+      "2028": 0.0927,
+      "2029": 0.0927,
+      "2030": 0.0927,
+      "2031": 0.0927,
+      "2032": 0.0927,
+      "2033": 0.0927
+    },
+    "ibs": {
+      "2026": 0.001,
+      "2027": 0.001,
+      "2028": 0.001,
+      "2029": 0.0527,
+      "2030": 0.0948,
+      "2031": 0.1369,
+      "2032": 0.179,
+      "2033": 0.1864
+    },
+    "_comentario": "IBS 2027-2028 mantém teste residual enquanto ICMS/ISS ainda vigoram integralmente; transição real de IBS ocorre 2029-2033 conforme cronograma de extinção de ICMS/ISS. Ajustado em 2026.08.03 para acompanhar a estimativa de alíquota de referência combinada revisada para 27,91% (antes 26,5%): como não há split oficial CBS/IBS publicado para essa nova estimativa, os valores foram escalados proporcionalmente a partir do split anterior (CBS 8,8% / IBS 17,7%). Ajustar quando o Comitê Gestor publicar os percentuais oficiais de cada ano de transição e o split definitivo.",
+    "reducaoInsumoAgropecuario": 0.6,
+    "aliquotaChefeReferenciaPlena2033": {
+      "cbs": 0.0927,
+      "ibs": 0.1864
+    }
+  },
+  "simplesNacional": {
+    "unificado": {
+      "descricao": "Empresa permanece 100% no DAS. Crédito repassado ao cliente é parcial, calculado sobre a fração de IBS/CBS efetivamente presumida no anexo/faixa do Simples, não sobre o valor cheio da nota.",
+      "percentualCreditoRepassadoPorAnexo": {
+        "anexoIII": 0.3,
+        "anexoV": 0.3,
+        "_comentario": "Percentual estimado/parametrizável — tabela oficial definitiva por anexo e faixa de receita ainda não consolidada. Ajustar conforme IN da RFB."
+      }
+    },
+    "hibrido": {
+      "descricao": "Empresa opta por apurar IBS/CBS por fora do DAS, em regime regular (débito x crédito), repassando crédito integral (100%) ao cliente. Assume custo de compliance adicional.",
+      "percentualCreditoRepassado": 1.0,
+      "custoComplianceAdicionalMensal": 800,
+      "custoComplianceAdicionalPercentualFaturamento": 0.003,
+      "janelaOpcao": "Setembro define vigência a partir de 1/jan do ano seguinte; depois, opção semestral (set define 1º sem., mar define 2º sem. do mesmo ano). Irretratável no período optado.",
+      "_comentario": "Regras de irretratabilidade ainda geram divergência entre fontes - revisar quando o Comitê Gestor publicar regulamento definitivo.",
+      "fracaoDasReferenteIbsCbs": 0.34
+    }
+  },
+  "produtorRural": {
+    "limiteReceitaAnualNaoContribuinte": 3600000,
+    "correcaoAnual": "IPCA",
+    "creditoPresumidoComprasDeNaoContribuinte": 0.6,
+    "_comentario": "LC 214/2025, Capítulo VII (arts. 164-168): art. 164 fixa o limite de não contribuinte (R$ 3.600.000, corrigido anualmente pelo IPCA — art. 167); art. 165 trata da opção irrevogável por ano pelo regime regular; art. 168 é o crédito presumido de quem compra de produtor rural/produtor rural integrado não contribuinte (percentual estimado em 60%, pendente de ato do Comitê Gestor/Ministério da Fazenda). Confirmado em pesquisa de fonte primária em 07/08/2026: NÃO existe hipótese própria e distinta de crédito presumido para agroindústria — o termo não aparece na lei; a agroindústria só figura como adquirente que se beneficia do art. 168, igual a qualquer outro contribuinte do regime regular."
+  },
+  "aviacaoAgricola": {
+    "tratamentoServico": "reducao60",
+    "_comentario": "LC 214/2025, art. 138 c/ Anexo IX, item 28 (\"Serviços de pulverização e controle de pragas\", NBS 1.1901.10.00) — dentro do regime de insumos agropecuários e aquícolas: redução de 60% na alíquota de CBS/IBS. Confirmado em pesquisa de fonte primária em 07/08/2026 (não é RETAERO nem regime infralegal — é o próprio texto da lei). Substitui o tratamento anterior de alíquota cheia.",
+    "reducaoAliquotaServicoPulverizacao": 0.6
+  },
+  "construcaoCivil": {
+    "reducaoAliquotaVendaIncorporacao": 0.5,
+    "reducaoAliquotaLocacao": 0.7,
+    "reducaoAliquotaEmpreitada": 0.5,
+    "_comentario": "LC 214/2025, Capítulo de Operações com Bens Imóveis: art. 252, V inclui explicitamente \"serviços de construção civil\" entre as operações desse capítulo; art. 261, caput, fixa redução de 50% para as operações do capítulo em geral (inclusive construção civil/empreitada com fornecimento de material para terceiros), e o parágrafo único do art. 261 fixa 70% só para locação/cessão/arrendamento. Confirmado em pesquisa de fonte primária em 07/08/2026. Pendente: artigo exato (entre 255-258) que trata do limite de crédito de material quando o tomador é não contribuinte do regime regular — não modelado aqui. A venda de imóvel também tem \"redutor de ajuste\" na BASE de cálculo (não modelado — reduz a base pelo valor de aquisição/mercado em 31/12/2026 + ITBI, o que este simulador gerencial simplifica ignorando, tendendo a SOBRESTIMAR a carga de incorporadoras). RET (regime especial de incorporadoras com patrimônio de afetação) continua existindo, com regime de transição opcional (art. 485) não modelado aqui."
+  },
+  "splitPayment": {
+    "fase1DataInicio": "2026-08-03",
+    "meiosPagamentoFase1": [
+      "pix",
+      "boleto",
+      "ted"
+    ],
+    "meiosPagamentoFaseFutura": [
+      "cartao_credito"
+    ],
+    "prazoMedioRecebimentoAtualDias": {
+      "pix": 0,
+      "boleto": 3,
+      "ted": 0,
+      "cartao_credito": 30
+    },
+    "_comentario": "Cronograma detalhado por arranjo (12 arranjos previstos no Decreto 12.955/2026) e datas de cada fase ainda dependem de ato infralegal complementar - tratar como parâmetro a atualizar."
+  }
+}

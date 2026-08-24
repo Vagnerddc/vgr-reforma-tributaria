@@ -1,0 +1,141 @@
+{
+  "_comentario": "Mapeamento de CNAE para perfil de atividade coberto pelo simulador. Simulador multi-setor, extensível — cada novo ramo entra como uma nova entrada aqui e em categoriasDespesaPorPerfil, nunca hardcoded no código da UI. Baseado na classificação CNAE 2.3 do IBGE. categoriasDespesaPorPerfil usa o formato leve (chave/label/naturezaEconomica) — o tratamento de crédito por sistema tributário (PIS/COFINS, ICMS/IPI, CBS/IBS) é hidratado em atividades.ts, por padrão como 'creditavel'/'herdado' (preserva o comportamento histórico do sistema) até cada categoria passar por revisão tributária individual.",
+  "versao": "2026.08.05",
+  "mapeamentoCnaeParaPerfil": [
+    {
+      "cnae": "0161-0/03",
+      "descricaoCnae": "Serviço de pulverização e polvilhamento aéreo na agricultura",
+      "perfil": "aviacao_agricola",
+      "observacao": "CNAE não distingue aeronave tripulada de drone — o sistema pergunta isso separadamente ao usuário."
+    },
+    {
+      "cnaePrefixo": "01",
+      "descricaoCnae": "Agricultura, pecuária e serviços relacionados (divisão 01 do CNAE)",
+      "perfil": "produtor_rural",
+      "observacao": "Cobre cultivo de cereais, criação de bovinos, etc. Qualquer CNAE cuja divisão (2 primeiros dígitos) seja 01 cai neste perfil."
+    },
+    {
+      "cnaePrefixo": "4930",
+      "descricaoCnae": "Transporte rodoviário de cargas (grupo 493 do CNAE)",
+      "perfil": "transporte_rodoviario_cargas",
+      "observacao": "Cobre municipal (4930-2/02), intermunicipal/interestadual/internacional (4930-2/01) e mudanças (4930-2/03)."
+    },
+    {
+      "cnaePrefixo": "41",
+      "descricaoCnae": "Construção de edifícios (divisão 41 do CNAE)",
+      "perfil": "construcao_civil",
+      "observacao": "Incorporação de empreendimentos, construção de edifícios residenciais/não residenciais."
+    },
+    {
+      "cnaePrefixo": "42",
+      "descricaoCnae": "Obras de infraestrutura (divisão 42 do CNAE)",
+      "perfil": "construcao_civil",
+      "observacao": "Rodovias, redes de abastecimento, obras de arte especiais, etc."
+    },
+    {
+      "cnaePrefixo": "43",
+      "descricaoCnae": "Serviços especializados para construção (divisão 43 do CNAE)",
+      "perfil": "construcao_civil",
+      "observacao": "Demolição, instalações elétricas/hidráulicas, acabamento, fundações, etc."
+    }
+  ],
+  "categoriasDespesaPorPerfil": {
+    "aviacao_agricola": [
+      { "chave": "combustivelAviacao", "label": "Combustível (querosene de aviação / gasolina de aviação)", "naturezaEconomica": "custo_direto" },
+      { "chave": "manutencaoAeronaveDrone", "label": "Manutenção de aeronave / drone e peças", "naturezaEconomica": "custo_direto" },
+      { "chave": "hangaragemArmazenagem", "label": "Hangaragem / armazenagem de equipamento", "naturezaEconomica": "custo_operacional" },
+      {
+        "chave": "maoDeObraTerceirizada",
+        "label": "Mão de obra terceirizada (piloto, operador de drone, auxiliar de pista)",
+        "naturezaEconomica": "custo_direto",
+        "observacaoTratamento": "Serviço contratado de terceiro (não é folha própria) — tratamento herdado do sistema anterior, ainda não revisado individualmente."
+      },
+      { "chave": "deslocamentoLogistica", "label": "Deslocamento / logística entre talhões e bases", "naturezaEconomica": "custo_operacional" },
+      { "chave": "segurosAeronave", "label": "Seguros de aeronave/drone e responsabilidade civil", "naturezaEconomica": "custo_operacional" },
+      { "chave": "comissoesVendas", "label": "Comissões sobre vendas / representação comercial", "naturezaEconomica": "custo_operacional" }
+    ],
+    "produtor_rural": [
+      {
+        "chave": "insumosAgropecuarios",
+        "label": "Insumos agropecuários (defensivos, fertilizantes, sementes) — alíquota reduzida 60%",
+        "naturezaEconomica": "custo_direto",
+        "reducaoAliquota": true
+      },
+      { "chave": "combustivelMaquinario", "label": "Combustível e maquinário agrícola", "naturezaEconomica": "custo_direto" },
+      {
+        "chave": "maoDeObraRural",
+        "label": "Mão de obra rural (própria ou terceirizada)",
+        "naturezaEconomica": "custo_direto",
+        "observacaoTratamento": "Categoria mistura mão de obra própria e terceirizada — tratamento herdado do sistema anterior; recomenda-se separar em revisão futura, já que só a parcela terceirizada tende a ter potencial de crédito."
+      },
+      { "chave": "arrendamentoTerras", "label": "Arrendamento de terras", "naturezaEconomica": "custo_operacional" },
+      { "chave": "freteTransporteProducao", "label": "Frete / transporte da produção", "naturezaEconomica": "custo_operacional" },
+      { "chave": "servicosAviacaoAgricola", "label": "Serviços de pulverização aérea (aviação/drone) contratados", "naturezaEconomica": "custo_operacional" }
+    ],
+    "transporte_rodoviario_cargas": [
+      { "chave": "combustivel", "label": "Combustível (diesel/etanol)", "naturezaEconomica": "custo_direto" },
+      { "chave": "manutencao", "label": "Manutenção de veículos e peças", "naturezaEconomica": "custo_direto" },
+      { "chave": "pneus", "label": "Pneus", "naturezaEconomica": "custo_direto" },
+      { "chave": "pedagio", "label": "Pedágio", "naturezaEconomica": "custo_operacional" },
+      { "chave": "estadias", "label": "Estadias", "naturezaEconomica": "custo_operacional" },
+      { "chave": "outras", "label": "Outras despesas", "naturezaEconomica": "outros_gastos" }
+    ],
+    "construcao_civil": [
+      { "chave": "materiaisConstrucao", "label": "Materiais de construção", "naturezaEconomica": "custo_direto" },
+      {
+        "chave": "maoDeObraPropria",
+        "label": "Mão de obra própria (folha)",
+        "naturezaEconomica": "folha_e_encargos",
+        "observacaoTratamento": "É folha de pagamento própria — a LC 214/2025 não sujeita ao IBS/CBS serviços prestados por pessoa física em relação de emprego, então esta categoria tende a NÃO gerar crédito. Mantida como 'creditável/herdado' nesta migração só para preservar o resultado das simulações já existentes; recomenda-se revisão tributária antes de confiar neste número."
+      },
+      {
+        "chave": "maoDeObraTerceirizada",
+        "label": "Mão de obra terceirizada / subcontratação",
+        "naturezaEconomica": "custo_direto",
+        "observacaoTratamento": "Serviço subcontratado de terceiro (não é folha própria) — tratamento herdado do sistema anterior, ainda não revisado individualmente."
+      },
+      { "chave": "locacaoEquipamentos", "label": "Locação de equipamentos e maquinário", "naturezaEconomica": "custo_operacional" },
+      { "chave": "servicosEspecializados", "label": "Serviços especializados subcontratados (elétrica, hidráulica, fundação)", "naturezaEconomica": "custo_operacional" },
+      { "chave": "projetosArtRrt", "label": "Projetos, ART/RRT e consultoria técnica", "naturezaEconomica": "custo_operacional" },
+      { "chave": "segurosObra", "label": "Seguros de obra e responsabilidade civil", "naturezaEconomica": "custo_operacional" },
+      { "chave": "outras", "label": "Outras despesas", "naturezaEconomica": "outros_gastos" }
+    ]
+  },
+  "categoriasGenericasPorNatureza": {
+    "servico": [
+      { "chave": "custoDiretoServico", "label": "Custos e insumos diretamente ligados à prestação do serviço", "naturezaEconomica": "custo_direto" },
+      { "chave": "operacionalServico", "label": "Ferramentas, terceirização e deslocamento operacional", "naturezaEconomica": "custo_operacional" },
+      { "chave": "folhaServico", "label": "Folha e encargos", "naturezaEconomica": "folha_e_encargos" },
+      { "chave": "beneficiosServico", "label": "Benefícios (vale-transporte, vale-refeição/alimentação, plano de saúde)", "naturezaEconomica": "beneficios_pessoal" },
+      { "chave": "administrativoServico", "label": "Despesas administrativas e outros gastos", "naturezaEconomica": "despesa_administrativa" }
+    ],
+    "industria": [
+      { "chave": "materiaPrimaIndustria", "label": "Matéria-prima e insumos de produção", "naturezaEconomica": "custo_direto" },
+      { "chave": "operacionalIndustria", "label": "Manutenção, energia industrial e estrutura de produção", "naturezaEconomica": "custo_operacional" },
+      { "chave": "folhaIndustria", "label": "Folha e encargos", "naturezaEconomica": "folha_e_encargos" },
+      { "chave": "beneficiosIndustria", "label": "Benefícios (vale-transporte, vale-refeição/alimentação, plano de saúde)", "naturezaEconomica": "beneficios_pessoal" },
+      { "chave": "administrativoIndustria", "label": "Despesas administrativas e outros gastos", "naturezaEconomica": "despesa_administrativa" }
+    ],
+    "comercio": [
+      { "chave": "cmvComercio", "label": "Compras para revenda (CMV)", "naturezaEconomica": "custo_direto" },
+      { "chave": "operacionalComercio", "label": "Frete, embalagem e gastos de comercialização", "naturezaEconomica": "custo_operacional" },
+      { "chave": "folhaComercio", "label": "Folha e encargos", "naturezaEconomica": "folha_e_encargos" },
+      { "chave": "beneficiosComercio", "label": "Benefícios (vale-transporte, vale-refeição/alimentação, plano de saúde)", "naturezaEconomica": "beneficios_pessoal" },
+      { "chave": "administrativoComercio", "label": "Despesas administrativas e outros gastos", "naturezaEconomica": "despesa_administrativa" }
+    ],
+    "outras": [
+      { "chave": "custoDiretoOutras", "label": "Custos diretamente ligados à atividade", "naturezaEconomica": "custo_direto" },
+      { "chave": "operacionalOutras", "label": "Custos e despesas operacionais", "naturezaEconomica": "custo_operacional" },
+      { "chave": "folhaOutras", "label": "Folha e encargos", "naturezaEconomica": "folha_e_encargos" },
+      { "chave": "beneficiosOutras", "label": "Benefícios (vale-transporte, vale-refeição/alimentação, plano de saúde)", "naturezaEconomica": "beneficios_pessoal" },
+      { "chave": "administrativoOutras", "label": "Despesas administrativas e outros gastos", "naturezaEconomica": "despesa_administrativa" }
+    ]
+  },
+  "taxaCrescimentoDefaultPorPerfil": {
+    "aviacao_agricola": 0.05,
+    "produtor_rural": 0.04,
+    "transporte_rodoviario_cargas": 0.06,
+    "construcao_civil": 0.05,
+    "_comentario": "Taxas ilustrativas de crescimento anual (aprox. PIB do segmento + inflação), só para PRÉ-PREENCHER o campo de projeção 2027 a partir do movimento apurado do ano anterior — o contador deve ajustar conforme a realidade e as perspectivas do cliente."
+  }
+}

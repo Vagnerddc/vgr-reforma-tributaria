@@ -1,0 +1,1053 @@
+[
+  {
+    "item": "1",
+    "descricao": "Bolsa para drenagem",
+    "ncmColuna": "3926.90.30",
+    "ncmCandidatos": [
+      "3926.90.30"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "2",
+    "descricao": "Sistema para drenagem com conjunto intermediário para medição contínua da diurese",
+    "ncmColuna": "9018.90.99",
+    "ncmCandidatos": [
+      "9018.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "3",
+    "descricao": "Chapas e filmes para raios-X, sensibilizados em uma face",
+    "ncmColuna": "3701.10.10",
+    "ncmCandidatos": [
+      "3701.10.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "4",
+    "descricao": "Cimentos para reconstituição óssea",
+    "ncmColuna": "3006.40.20",
+    "ncmCandidatos": [
+      "3006.40.20"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "5",
+    "descricao": "Substitutos de enxerto ósseo",
+    "ncmColuna": "3004.90.99",
+    "ncmCandidatos": [
+      "3004.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "6",
+    "descricao": "Coletor para unidade de drenagem externa",
+    "ncmColuna": "3926.90.40",
+    "ncmCandidatos": [
+      "3926.90.40"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "7",
+    "descricao": "Conector completo com tampa",
+    "ncmColuna": "3917.40",
+    "ncmCandidatos": [
+      "3917.40"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "8",
+    "descricao": "Conector em Y",
+    "ncmColuna": "3917.40",
+    "ncmCandidatos": [
+      "3917.40"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "9",
+    "descricao": "Conjuntos de troca e concentrados polieletrolíticos para diálise",
+    "ncmColuna": "3004.90.99",
+    "ncmCandidatos": [
+      "3004.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "10",
+    "descricao": "Conjunto para autotransfusão",
+    "ncmColuna": "9018.90.10",
+    "ncmCandidatos": [
+      "9018.90.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "11",
+    "descricao": "Conjunto para hidrocefalia de baixo perfil",
+    "ncmColuna": "9021.90.19",
+    "ncmCandidatos": [
+      "9021.90.19"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "12",
+    "descricao": "Conjunto para hidrocefalia standard",
+    "ncmColuna": "9021.90.19",
+    "ncmCandidatos": [
+      "9021.90.19"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "13",
+    "descricao": "Eletrodo endocárdico definitivo",
+    "ncmColuna": "9021.90.91",
+    "ncmCandidatos": [
+      "9021.90.91"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "14",
+    "descricao": "Eletrodo epicárdico definitivo",
+    "ncmColuna": "9021.90.91",
+    "ncmCandidatos": [
+      "9021.90.91"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "15",
+    "descricao": "Eletrodo para marcapasso temporário endocárdico",
+    "ncmColuna": "9021.90.91",
+    "ncmCandidatos": [
+      "9021.90.91"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "16",
+    "descricao": "Eletrodo para marcapasso temporário epicárdico",
+    "ncmColuna": "9021.90.91",
+    "ncmCandidatos": [
+      "9021.90.91"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "17",
+    "descricao": "Espaçador de tendão",
+    "ncmColuna": "9021.90.19",
+    "ncmCandidatos": [
+      "9021.90.19"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "18",
+    "descricao": "Filmes especiais para raios-X sensibilizados em ambas as faces",
+    "ncmColuna": "3702.10.20",
+    "ncmCandidatos": [
+      "3702.10.20"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "19",
+    "descricao": "Filmes especiais para raios-X sensibilizados em uma face",
+    "ncmColuna": "3702.10.10",
+    "ncmCandidatos": [
+      "3702.10.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "20",
+    "descricao": "Filtro de linha arterial e venoso",
+    "ncmColuna": "8421.29.90",
+    "ncmCandidatos": [
+      "8421.29.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "21",
+    "descricao": "Filtro de sangue arterial e venoso para recirculação",
+    "ncmColuna": "8421.29.90",
+    "ncmCandidatos": [
+      "8421.29.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "22",
+    "descricao": "Filtro para cardioplegia",
+    "ncmColuna": "8421.29.90",
+    "ncmCandidatos": [
+      "8421.29.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "23",
+    "descricao": "Categutes esterilizados, materiais esterilizados semelhantes para suturas cirúrgicas (incluídos os fios absorvíveis esterilizados para cirurgia ou odontologia) e adesivos esterilizados para tecidos orgânicos, utilizados em cirurgia para fechar ferimentos; laminárias esterilizadas; hemostáticos absorvíveis esterilizados para cirurgia ou odontologia; barreiras antiaderentes esterilizadas para cirurgia ou odontologia, absorvíveis ou não",
+    "ncmColuna": "3006.10",
+    "ncmCandidatos": [
+      "3006.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "24",
+    "descricao": "Hemoconcentrador para circulação extracorpórea",
+    "ncmColuna": "9018.90.40",
+    "ncmCandidatos": [
+      "9018.90.40"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "25",
+    "descricao": "Hemodialisador capilar",
+    "ncmColuna": "8421.29.11",
+    "ncmCandidatos": [
+      "8421.29.11"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "26",
+    "descricao": "Marcapasso cardíaco câmara dupla",
+    "ncmColuna": "9021.50.00",
+    "ncmCandidatos": [
+      "9021.50.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "27",
+    "descricao": "Marcapasso cardíaco multiprogramável com telemetria",
+    "ncmColuna": "9021.50.00",
+    "ncmCandidatos": [
+      "9021.50.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "28",
+    "descricao": "Outras chapas e filmes para raios-X",
+    "ncmColuna": "3701.10.29",
+    "ncmCandidatos": [
+      "3701.10.29"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "29",
+    "descricao": "Oxigenador de bolha com tubos para circulação extracorpórea",
+    "ncmColuna": "9018.90.99",
+    "ncmCandidatos": [
+      "9018.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "30",
+    "descricao": "Oxigenador de membrana com tubos para circulação extracorpórea",
+    "ncmColuna": "9018.90.99",
+    "ncmCandidatos": [
+      "9018.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "31",
+    "descricao": "Reservatório de cardiotomia",
+    "ncmColuna": "9018.90.99",
+    "ncmCandidatos": [
+      "9018.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "32",
+    "descricao": "Reservatório para cardioplegia com tubo sem filtro",
+    "ncmColuna": "9018.90.99",
+    "ncmCandidatos": [
+      "9018.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "33",
+    "descricao": "Rins artificiais",
+    "ncmColuna": "9018.90.40",
+    "ncmCandidatos": [
+      "9018.90.40"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "34",
+    "descricao": "Shunt lombo-peritonal",
+    "ncmColuna": "9021.90.19",
+    "ncmCandidatos": [
+      "9021.90.19"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "35",
+    "descricao": "Substituto temporário de pele (biológica/sintética) (por cm2)",
+    "ncmColuna": "3005.90.90",
+    "ncmCandidatos": [
+      "3005.90.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "36",
+    "descricao": "Tela inorgânica",
+    "ncmColuna": "3006.10.90",
+    "ncmCandidatos": [
+      "3006.10.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "37",
+    "descricao": "Válvula para hidrocefalia",
+    "ncmColuna": "9021.90.19",
+    "ncmCandidatos": [
+      "9021.90.19"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "38",
+    "descricao": "Válvula para tratamento de ascite",
+    "ncmColuna": "9021.90.19",
+    "ncmCandidatos": [
+      "9021.90.19"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "39",
+    "descricao": "Fonte de irídio 192",
+    "ncmColuna": "2844.43.90",
+    "ncmCandidatos": [
+      "2844.43.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "40",
+    "descricao": "Stent vascular",
+    "ncmColuna": "9021.90.12",
+    "ncmCandidatos": [
+      "9021.90.12"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "41",
+    "descricao": "Reprocessador de filtros utilizados em hemodiálise",
+    "ncmColuna": "8479.89.99",
+    "ncmCandidatos": [
+      "8479.89.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "42",
+    "descricao": "Implantes osseointegráveis, na forma de parafuso, e seus componentes manufaturados, tais como tampas de proteção, montadores, conjuntos, pilares (cicatrizador, conector, de transferência ou temporário), cilindros, seus acessórios, destinados a sustentar, amparar, acoplar ou fixar próteses dentárias",
+    "ncmColuna": "9021.29.00",
+    "ncmCandidatos": [
+      "9021.29.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "43",
+    "descricao": "Cardiodesfibrilador implantável",
+    "ncmColuna": "9021.90.11",
+    "ncmCandidatos": [
+      "9021.90.11"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "44",
+    "descricao": "Espiral para embolização",
+    "ncmColuna": "9021.90.12",
+    "ncmCandidatos": [
+      "9021.90.12"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "45",
+    "descricao": "Imunoglobulina anti-Rh",
+    "ncmColuna": "3002.12.21",
+    "ncmCandidatos": [
+      "3002.12.21"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "46",
+    "descricao": "Outras imunoglobulinas séricas",
+    "ncmColuna": "3002.12.22",
+    "ncmCandidatos": [
+      "3002.12.22"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "47",
+    "descricao": "Concentrado de fator VIII",
+    "ncmColuna": "3002.12.23",
+    "ncmCandidatos": [
+      "3002.12.23"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "48",
+    "descricao": "Outras frações do sangue, exceto as preparadas como medicamentos, as imunoglobulinas séricas, o concentrado de fator VIII e a soroalbumina sob a forma de gel para preparação de reagentes de diagnóstico",
+    "ncmColuna": "3002.12.21 3002.12.29",
+    "ncmCandidatos": [
+      "3002.12.21",
+      "3002.12.29"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": "49",
+    "descricao": "Reagentes de diagnóstico ou de laboratório em qualquer suporte e reagentes de diagnóstico ou de laboratório preparados, mesmo em um suporte, mesmo apresentados sob a forma de estojos, exceto os da posição 30.06; materiais de referência certificados",
+    "ncmColuna": "3822.1",
+    "ncmCandidatos": [
+      "3822.1"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": "50",
+    "descricao": "Reagentes de diagnóstico concebidos para serem administrados ao paciente, à base de somatoliberina",
+    "ncmColuna": "3006.30.21",
+    "ncmCandidatos": [
+      "3006.30.21"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "51",
+    "descricao": "Produtos para obturação dentária, exceto cimentos",
+    "ncmColuna": "3006.40.12",
+    "ncmCandidatos": [
+      "3006.40.12"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": "52",
+    "descricao": "Preparações em gel, concebidas para uso em medicina humana ou veterinária como lubrificante para certas partes do corpo em intervenções cirúrgicas ou exames médicos ou como agente de ligação entre o corpo e os instrumentos médicos",
+    "ncmColuna": "3006.70.00",
+    "ncmCandidatos": [
+      "3006.70.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "53",
+    "descricao": "Bolsas para uso em colostomia, ileostomia e urostomia",
+    "ncmColuna": "3006.91.10",
+    "ncmCandidatos": [
+      "3006.91.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "54",
+    "descricao": "Equipamentos identificáveis para ostomia, exceto bolsas para uso em colostomia, ileostomia e urostomia",
+    "ncmColuna": "3006.91.90",
+    "ncmCandidatos": [
+      "3006.91.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": "55",
+    "descricao": "Bolsas para uso em medicina (hemodiálise e usos semelhantes)",
+    "ncmColuna": "3926.90.30",
+    "ncmCandidatos": [
+      "3926.90.30"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "56",
+    "descricao": "Artigos exclusivamente de laboratório de análises clínicas",
+    "ncmColuna": "3926.90.40",
+    "ncmCandidatos": [
+      "3926.90.40"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "57",
+    "descricao": "Acessórios de plástico do tipo utilizado em linhas de sangue para hemodiálise, tais como: obturadores, incluídos os reguláveis (clamps), clipes e similares",
+    "ncmColuna": "3926.90.50",
+    "ncmCandidatos": [
+      "3926.90.50"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "58",
+    "descricao": "Luvas cirúrgicas e luvas de procedimento",
+    "ncmColuna": "4015.1",
+    "ncmCandidatos": [
+      "4015.1"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "59",
+    "descricao": "Seringas, mesmo com agulhas",
+    "ncmColuna": "9018.31",
+    "ncmCandidatos": [
+      "9018.31"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "60",
+    "descricao": "Agulhas tubulares de metal e agulhas para suturas",
+    "ncmColuna": "9018.32",
+    "ncmCandidatos": [
+      "9018.32"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "61",
+    "descricao": "Agulhas, exceto as de metal e as para suturas",
+    "ncmColuna": "9018.39.10",
+    "ncmCandidatos": [
+      "9018.39.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": "62",
+    "descricao": "Sondas, cateteres e cânulas, individualmente ou em conjunto",
+    "ncmColuna": "9018.39.2",
+    "ncmCandidatos": [
+      "9018.39.2"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "63",
+    "descricao": "Lancetas para vacinação e cautérios",
+    "ncmColuna": "9018.39.30",
+    "ncmCandidatos": [
+      "9018.39.30"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "64",
+    "descricao": "Instrumentos semelhantes a seringas, a agulhas, a cateteres e a cânulas",
+    "ncmColuna": "9018.39.9",
+    "ncmCandidatos": [
+      "9018.39.9"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "65",
+    "descricao": "Brocas para odontologia",
+    "ncmColuna": "9018.49.1",
+    "ncmCandidatos": [
+      "9018.49.1"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "66",
+    "descricao": "Limas",
+    "ncmColuna": "9018.49.20",
+    "ncmCandidatos": [
+      "9018.49.20"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "67",
+    "descricao": "Grampos e clipes, seus aplicadores e extratores",
+    "ncmColuna": "9018.90.95",
+    "ncmCandidatos": [
+      "9018.90.95"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "68",
+    "descricao": "Outros instrumentos e aparelhos para medicina, cirurgia e odontologia, excluídas seringas e agulhas, das posições 9018.31 e 9018.32",
+    "ncmColuna": "9018.39.99",
+    "ncmCandidatos": [
+      "9018.39.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "69",
+    "descricao": "Mesas de operação e para exames, camas hospitalares e de uso clínico",
+    "ncmColuna": "9402.90",
+    "ncmCandidatos": [
+      "9402.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "70",
+    "descricao": "Fotocoagulador a laser",
+    "ncmColuna": "9018.20.10",
+    "ncmCandidatos": [
+      "9018.20.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "71",
+    "descricao": "Bisturi elétrico",
+    "ncmColuna": "9018.90.21",
+    "ncmCandidatos": [
+      "9018.90.21"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "72",
+    "descricao": "Aparelho de anestesia com monitor multiparâmetros",
+    "ncmColuna": "9018.90.99",
+    "ncmCandidatos": [
+      "9018.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "73",
+    "descricao": "Autoclave",
+    "ncmColuna": "8419.81.10",
+    "ncmCandidatos": [
+      "8419.81.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "74",
+    "descricao": "Retinógrafo",
+    "ncmColuna": "9018.50.90",
+    "ncmCandidatos": [
+      "9018.50.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "75",
+    "descricao": "Meios de cultura",
+    "ncmColuna": "3821.00.00",
+    "ncmCandidatos": [
+      "3821.00.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "76",
+    "descricao": "Termocicladores utilizados em diagnóstico e na pesquisa científica",
+    "ncmColuna": "8419.89.99",
+    "ncmCandidatos": [
+      "8419.89.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "77",
+    "descricao": "Partes e peças de termocicladores",
+    "ncmColuna": "8419.90.40",
+    "ncmCandidatos": [
+      "8419.90.40"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "78",
+    "descricao": "Pipetadores laboratoriais para diagnóstico e pesquisa científica",
+    "ncmColuna": "8479.89.12",
+    "ncmCandidatos": [
+      "8479.89.12"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "79",
+    "descricao": "Cromatógrafo de fase líquida",
+    "ncmColuna": "9027.20.12",
+    "ncmCandidatos": [
+      "9027.20.12"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "80",
+    "descricao": "Sequenciadores automáticos de ADN mediante eletroforese capilar",
+    "ncmColuna": "9027.20.21",
+    "ncmCandidatos": [
+      "9027.20.21"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "81",
+    "descricao": "Aparelhos de eletroforese para diagnóstico e pesquisa científica",
+    "ncmColuna": "9027.20.29",
+    "ncmCandidatos": [
+      "9027.20.29"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "82",
+    "descricao": "Analisadores por espectrofotometria para diagnóstico e pesquisa científica",
+    "ncmColuna": "9027.30",
+    "ncmCandidatos": [
+      "9027.30"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "83",
+    "descricao": "Analisadores por fotometria para diagnóstico e pesquisa científica",
+    "ncmColuna": "9027.50.20",
+    "ncmCandidatos": [
+      "9027.50.20"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "84",
+    "descricao": "Citômetro de fluxo",
+    "ncmColuna": "9027.50.50",
+    "ncmCandidatos": [
+      "9027.50.50"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "85",
+    "descricao": "Analisadores por radiações ópticas para diagnóstico e pesquisa científica",
+    "ncmColuna": "9027.50.90",
+    "ncmCandidatos": [
+      "9027.50.90"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "86",
+    "descricao": "Outros analisadores para diagnóstico e pesquisa científica",
+    "ncmColuna": "9027.89.99",
+    "ncmCandidatos": [
+      "9027.89.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "87",
+    "descricao": "Espectrômetro de massa",
+    "ncmColuna": "9027.81.00",
+    "ncmCandidatos": [
+      "9027.81.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "88",
+    "descricao": "Outros analisadores para diagnóstico",
+    "ncmColuna": "9027.89.99",
+    "ncmCandidatos": [
+      "9027.89.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "89",
+    "descricao": "Micrótomo",
+    "ncmColuna": "9027.90.10",
+    "ncmCandidatos": [
+      "9027.90.10"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "90",
+    "descricao": "Partes e peças de equipamentos analisadores laboratoriais",
+    "ncmColuna": "9027.90.9",
+    "ncmCandidatos": [
+      "9027.90.9"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "91",
+    "descricao": "Preservativo",
+    "ncmColuna": "4014.10.00",
+    "ncmCandidatos": [
+      "4014.10.00"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "92",
+    "descricao": "Dispositivo intrauterino (DIU)",
+    "ncmColuna": "9018.90.99",
+    "ncmCandidatos": [
+      "9018.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "93",
+    "descricao": "Substância para conservação de órgãos e tecidos",
+    "ncmColuna": "3824.99.89",
+    "ncmCandidatos": [
+      "3824.99.89"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "94",
+    "descricao": "Introdutor de punção para implante de eletrodo endocárdico",
+    "ncmColuna": "9021.90.91",
+    "ncmCandidatos": [
+      "9021.90.91"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "95",
+    "descricao": "Enxerto tubular de politetrafluoretileno - PTFE (por cm2)",
+    "ncmColuna": "9021.90.99",
+    "ncmCandidatos": [
+      "9021.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "96",
+    "descricao": "Enxerto arterial e venoso tubular inorgânico",
+    "ncmColuna": "9021.90.99",
+    "ncmCandidatos": [
+      "9021.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "97",
+    "descricao": "Botão para crânio",
+    "ncmColuna": "9021.90.99",
+    "ncmCandidatos": [
+      "9021.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "98",
+    "descricao": "Guia metálico para introdução de cateter duplo lumen",
+    "ncmColuna": "9018.39.29",
+    "ncmCandidatos": [
+      "9018.39.29"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "99",
+    "descricao": "Dilatador para implante de cateter duplo lumen",
+    "ncmColuna": "9018.39.29",
+    "ncmCandidatos": [
+      "9018.39.29"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "100",
+    "descricao": "Guia de troca para angioplastia",
+    "ncmColuna": "9018.39.29",
+    "ncmCandidatos": [
+      "9018.39.29"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "101",
+    "descricao": "Introdutor para cateter com e sem válvula",
+    "ncmColuna": "9018.39.29",
+    "ncmCandidatos": [
+      "9018.39.29"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "102",
+    "descricao": "Kit cânula",
+    "ncmColuna": "9018.39.99",
+    "ncmCandidatos": [
+      "9018.39.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "103",
+    "descricao": "Dreno para sucção",
+    "ncmColuna": "9018.39.29",
+    "ncmCandidatos": [
+      "9018.39.29"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "104",
+    "descricao": "Sistema de drenagem mediastinal",
+    "ncmColuna": "9018.39.29",
+    "ncmCandidatos": [
+      "9018.39.29"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": "105",
+    "descricao": "Conjunto descartável de balão intra-aórtico",
+    "ncmColuna": "9018.90.99",
+    "ncmCandidatos": [
+      "9018.90.99"
+    ],
+    "ehServicoNbs": false,
+    "temExcecaoNaoModelada": false
+  }
+]

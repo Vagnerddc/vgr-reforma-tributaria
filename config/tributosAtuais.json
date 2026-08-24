@@ -1,0 +1,38 @@
+{
+  "_comentario": "Alíquotas de referência do sistema ATUAL (PIS/Cofins e ICMS), usadas apenas para PRÉ-PREENCHER os campos do simulador. São estimativas gerais — o contador deve confirmar e ajustar conforme a realidade específica do cliente (o campo continua editável). Nunca tratar como apuração definitiva.",
+  "versao": "2026.08.03",
+  "pisCofinsPorRegime": {
+    "lucro_real": {
+      "aliquota": 0.0925,
+      "descricao": "PIS 1,65% + Cofins 7,6% — regime não cumulativo padrão do Lucro Real."
+    },
+    "lucro_presumido": {
+      "aliquota": 0.0365,
+      "descricao": "PIS 0,65% + Cofins 3% — regime cumulativo padrão do Lucro Presumido."
+    },
+    "simplesPorAnexo": {
+      "anexoIII": {
+        "aliquota": 0.0201,
+        "descricao": "Estimativa média de PIS+Cofins embutidos no DAS do Anexo III — o percentual real varia por faixa de receita bruta (RBT12); confirme na tabela do Anexo III vigente."
+      },
+      "anexoV": {
+        "aliquota": 0.0227,
+        "descricao": "Estimativa média de PIS+Cofins embutidos no DAS do Anexo V — o percentual real varia por faixa de receita bruta (RBT12) e pelo Fator R; confirme na tabela do Anexo V vigente."
+      }
+    },
+    "_comentario": "Simples híbrido usa o mesmo valor de referência do unificado apenas para pré-preencher o campo — uma vez migrado para o híbrido, PIS/Cofins deixam de existir dentro do DAS (ver simplesNacional.hibrido em parametros.json)."
+  },
+  "icmsPorUf": {
+    "AC": 0.19, "AL": 0.19, "AP": 0.18, "AM": 0.20, "BA": 0.205, "CE": 0.20,
+    "DF": 0.20, "ES": 0.17, "GO": 0.19, "MA": 0.22, "MT": 0.17, "MS": 0.17,
+    "MG": 0.18, "PA": 0.19, "PB": 0.20, "PR": 0.195, "PE": 0.205, "PI": 0.21,
+    "RJ": 0.22, "RN": 0.18, "RS": 0.17, "RO": 0.195, "RR": 0.20, "SC": 0.17,
+    "SP": 0.18, "SE": 0.19, "TO": 0.20,
+    "_comentario": "Alíquotas internas 'modais' de cada Estado (regulamento de ICMS vigente na consulta de 03/08/2026) — variam por CFOP, tipo de mercadoria/serviço, benefícios fiscais e regime especial. CONFIRME SEMPRE com a contabilidade/legislação estadual antes de usar em decisão real."
+  },
+  "observacoesIcmsPorPerfil": {
+    "aviacao_agricola": "O serviço de pulverização aérea costuma ser tributado por ISS (municipal), não por ICMS — a alíquota estadual trazida aqui é apenas um ponto de partida; confirme o enquadramento correto (ISS x ICMS) e a alíquota do município com a contabilidade.",
+    "produtor_rural": "Produtos agropecuários frequentemente têm diferimento, isenção ou redução de base de cálculo de ICMS, conforme o Estado e o produto — a alíquota cheia trazida aqui tende a superestimar a carga real; confirme com a contabilidade.",
+    "transporte_rodoviario_cargas": "Transporte intermunicipal e interestadual de cargas é tributado por ICMS. A alíquota interna do Estado de origem é usada como referência; operações interestaduais têm alíquotas específicas (4%, 7% ou 12%, conforme a UF de destino e a origem da mercadoria) que este simulador não calcula — confirme com a contabilidade."
+  }
+}

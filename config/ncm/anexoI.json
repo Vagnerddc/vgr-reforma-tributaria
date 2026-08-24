@@ -1,0 +1,238 @@
+[
+  {
+    "item": 1,
+    "descricao": "Arroz das subposições 1006.20 e 1006.30 e do código 1006.40.00 da NCM/SH",
+    "ncmCandidatos": [
+      "1006.20",
+      "1006.30",
+      "1006.40.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 2,
+    "descricao": "Leite, em conformidade com os requisitos da legislação específica relativos ao consumo direto pela população, classificado nos códigos 0401.10.10, 0401.10.90, 0401.20.10, 0401.20.90, 0401.40.10 e 0401.50.10 da NCM/SH",
+    "ncmCandidatos": [
+      "0401.10.10",
+      "0401.10.90",
+      "0401.20.10",
+      "0401.20.90",
+      "0401.40.10",
+      "0401.50.10"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 3,
+    "descricao": "Leite em pó, em conformidade com os requisitos da legislação específica, classificado nos códigos 0402.10.10, 0402.10.90, 0402.21.10, 0402.21.20, 0402.29.10 e 0402.29.20 da NCM/SH",
+    "ncmCandidatos": [
+      "0402.10.10",
+      "0402.10.90",
+      "0402.21.10",
+      "0402.21.20",
+      "0402.29.10",
+      "0402.29.20"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 4,
+    "descricao": "Fórmulas infantis, em conformidade com os requisitos da legislação específica, classificadas nos códigos 1901.10.10, 1901.10.90 e 2106.90.90 da NCM/SH",
+    "ncmCandidatos": [
+      "1901.10.10",
+      "1901.10.90",
+      "2106.90.90"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 5,
+    "descricao": "Manteiga do código 0405.10.00 da NCM/SH",
+    "ncmCandidatos": [
+      "0405.10.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 6,
+    "descricao": "Margarina do código 1517.10.00 da NCM/SH",
+    "ncmCandidatos": [
+      "1517.10.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 7,
+    "descricao": "Feijões dos códigos 0713.33.19, 0713.33.29, 0713.33.99 e 0713.35.90 da NCM/SH",
+    "ncmCandidatos": [
+      "0713.33.19",
+      "0713.33.29",
+      "0713.33.99",
+      "0713.35.90"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 8,
+    "descricao": "Café da posição 09.01 e da subposição 2101.1, ambos da NCM/SH",
+    "ncmCandidatos": [
+      "09.01",
+      "2101.1"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 9,
+    "descricao": "Óleo de babaçu do código 1513.21.20 da NCM/SH, em conformidade com os requisitos da legislação específica relativos ao consumo como alimento",
+    "ncmCandidatos": [
+      "1513.21.20"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 10,
+    "descricao": "Farinha de mandioca classificada no código 1106.20.00 da NCM/SH e tapioca e seus sucedâneos do código 1903.00.00 da NCM/SH",
+    "ncmCandidatos": [
+      "1106.20.00",
+      "1903.00.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 11,
+    "descricao": "Farinha, grumos e sêmolas, de milho, dos códigos 1102.20.00 e 1103.13.00 da NCM",
+    "ncmCandidatos": [
+      "1102.20.00",
+      "1103.13.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 12,
+    "descricao": "Grãos de milho classificados no código 1104.19.00 e do código 1104.23.00 da NCM/SH",
+    "ncmCandidatos": [
+      "1104.19.00",
+      "1104.23.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 13,
+    "descricao": "Farinha de trigo do código 1101.00.10 da NCM/SH",
+    "ncmCandidatos": [
+      "1101.00.10"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 14,
+    "descricao": "Açúcar classificado nos códigos 1701.14.00 e 1701.99.00 da NCM/SH",
+    "ncmCandidatos": [
+      "1701.14.00",
+      "1701.99.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 15,
+    "descricao": "Massas alimentícias da subposição 1902.1 da NCM/SH",
+    "ncmCandidatos": [
+      "1902.1"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 16,
+    "descricao": "Pão comumente denominado pão francês, de formato cilíndrico e alongado, com miolo branco creme e macio, e casca dourada e crocante, elaborado a partir da mistura ou pré-mistura de farinha de trigo, fermento biológico, água, sal, açúcar, aditivos alimentares e produtos de fortificação de farinhas, em conformidade com a legislação vigente, classificado no código 1905.90.90 da NCM/SH e a pré-mistura ou massa, para preparação do pão comumente denominado pão francês, dos códigos 1901.20.10 e 1901.20.90 da NCM/SH",
+    "ncmCandidatos": [
+      "1905.90.90",
+      "1901.20.10",
+      "1901.20.90"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 17,
+    "descricao": "Grãos de aveia dos códigos 1104.12.00 e 1104.22.00 da NCM/SH",
+    "ncmCandidatos": [
+      "1104.12.00",
+      "1104.22.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 18,
+    "descricao": "Farinha de aveia classificada no código 1102.90.00 da NCM/SH",
+    "ncmCandidatos": [
+      "1102.90.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 19,
+    "descricao": "Carnes bovina, suína, ovina, caprina e de aves e produtos de origem animal (exceto foies gras) dos seguintes códigos, subposições e posições da NCM/SH: a) 02.01, 02.02, 0206.10.00, 0206.2 e 0210.20.00; b) 02.03, 0206.30.00, 0206.4, 0209.10 e 0210.1; c) 02.04 e 0210.99.20, carne caprina classificada no código 0210.99.90 e miudezas comestíveis de ovinos e caprinos classificadas nos códigos 0206.80.00 e 0206.90.00; d) 02.07, 0209.90.00 e 0210.99.1, exceto os produtos dos códigos 0207.43.00 e 0207.53.00",
+    "ncmCandidatos": [],
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": 20,
+    "descricao": "Peixes e carnes de peixes (exceto salmonídeos, atuns, bacalhaus, hadoque, saithe e ovas e outros subprodutos) dos seguintes códigos, subposições e posições da NCM/SH: a) 03.02; exceto os produtos das subposições e dos códigos 0302.1, 0302.3, 0302.51.00, 0302.52.00, 0302.53.00 e 0302.9 da NCM/SH; b) 03.03; exceto os produtos das subposições e dos códigos 0303.1, 0303.4, 0303.63.00, 0303.64.00, 0303.65.00 e 0303.9 da NCM/SH; c) 03.04; exceto os salmonídeos, atuns, bacalhaus, hadoque e saithe classificados nas subposições 0304.4, 0304.5, 0304.7, 0304.8 e 0304.9 da NCM/SH",
+    "ncmCandidatos": [],
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": 21,
+    "descricao": "Queijos tipo mozarela, minas, prato, queijo de coalho, ricota, requeijão, queijo provolone, queijo parmesão, queijo fresco não maturado e queijo do reino classificados nos códigos 0406.10.10, 0406.10.90, 0406.20.00, 0406.90.10, 0406.90.20 e 0406.90.30 da NCM/SH",
+    "ncmCandidatos": [
+      "0406.10.10",
+      "0406.10.90",
+      "0406.20.00",
+      "0406.90.10",
+      "0406.90.20",
+      "0406.90.30"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 22,
+    "descricao": "Sal em conformidade com os requisitos da legislação específica relativos ao teor de iodo enquadrado nos limites próprios para consumo humano classificado nos códigos 2501.00.20 e 2501.00.90 da NCM/SH",
+    "ncmCandidatos": [
+      "2501.00.20",
+      "2501.00.90"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 23,
+    "descricao": "Mate da posição 09.03 da NCM/SH",
+    "ncmCandidatos": [
+      "09.03"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 24,
+    "descricao": "Farinha com baixo teor de proteína para pessoas com aminoacidopatias, acidemias e defeitos do ciclo da uréia da NCM 1901.90.90",
+    "ncmCandidatos": [
+      "1901.90.90"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 25,
+    "descricao": "Massas com baixo teor de proteína para pessoas com aminoacidopatias, acidemias e defeitos do ciclo da uréia da NCM 1902.19.00",
+    "ncmCandidatos": [
+      "1902.19.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 26,
+    "descricao": "Fórmulas Dietoterápicas para Erros Inatos do Metabolismo da NCM 2106.9090",
+    "ncmCandidatos": [
+      "2106.90",
+      "90"
+    ],
+    "temExcecaoNaoModelada": false
+  }
+]

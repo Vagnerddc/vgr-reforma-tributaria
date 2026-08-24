@@ -1,0 +1,298 @@
+{
+  "_comentario": "Taxonomia setorial inicial — ampla, não exaustiva (ver docs/auditoria-visao-estrategica.md e o pedido que originou este catálogo). Adicionar um segmento novo (ex.: pet shop, academia, hotel) é só um novo item neste array — nenhuma alteração de tipo ou de código é necessária. Nenhum campo aqui carrega efeito tributário: characteristicasDisponiveis/modulosAplicaveis/perguntasEspecificas são metadados de CONTEXTO, o cálculo continua em engine/calculo.ts (hoje) e nos motores futuros (Motor de Regimes etc.), nunca aqui.",
+  "versao": "2026.08.12",
+  "macroSetores": [
+    { "id": "agronegocio", "nome": "Agronegócio" },
+    { "id": "saude", "nome": "Saúde" },
+    { "id": "transporte_logistica", "nome": "Transporte e logística" },
+    { "id": "industria", "nome": "Indústria" },
+    { "id": "construcao_imobiliario", "nome": "Construção e imobiliário" },
+    { "id": "comercio", "nome": "Comércio" },
+    { "id": "alimentacao", "nome": "Alimentação" },
+    { "id": "servicos", "nome": "Serviços" },
+    { "id": "tecnologia", "nome": "Tecnologia" },
+    { "id": "telecomunicacoes", "nome": "Telecomunicações" },
+    { "id": "financeiro_pagamentos", "nome": "Financeiro e meios de pagamento" },
+    { "id": "locacao", "nome": "Locação" }
+  ],
+  "perfis": [
+    {
+      "id": "produtor_rural",
+      "macroSetor": "agronegocio",
+      "segmento": "Produtor rural",
+      "subsegmentos": ["Agricultura", "Pecuária", "Cerealista"],
+      "descricao": "Produção primária agropecuária — perfil legado já revisado tributariamente no motor atual (calculo.ts).",
+      "arquetipos": ["agro"],
+      "caracteristicasDisponiveis": [
+        { "id": "produtor_pessoa_fisica", "label": "Produtor é pessoa física", "tipo": "booleano" },
+        { "id": "vende_para_cooperativa", "label": "Vende predominantemente para cooperativa", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["creditoPresumido"],
+      "perguntasEspecificas": [
+        { "id": "q_compras_nao_contribuinte", "pergunta": "Qual % das compras vem de não contribuinte?", "tipo": "percentual" }
+      ],
+      "cnaesSugeridos": ["01"]
+    },
+    {
+      "id": "frigorifico",
+      "macroSetor": "agronegocio",
+      "setor": "Agroindústria",
+      "segmento": "Frigorífico / abatedouro",
+      "subsegmentos": ["Bovinos", "Aves", "Suínos"],
+      "descricao": "Abate, industrialização e comercialização de carnes — combina etapas industriais e comerciais na mesma empresa.",
+      "arquetipos": ["industria", "comercio"],
+      "caracteristicasDisponiveis": [
+        { "id": "abate_proprio", "label": "Abate próprio", "tipo": "booleano" },
+        { "id": "abate_terceiros", "label": "Abate de terceiros (prestação de serviço)", "tipo": "booleano" },
+        { "id": "industrializacao", "label": "Industrialização de subprodutos", "tipo": "booleano" },
+        { "id": "exportacao", "label": "Exporta parte da produção", "tipo": "booleano" },
+        { "id": "lojas_proprias", "label": "Possui lojas próprias de varejo", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["estoque", "industrializacao", "creditos", "exportacao", "subprodutos"],
+      "perguntasEspecificas": [
+        { "id": "q_percentual_exportacao", "pergunta": "Qual % da receita vem de exportação?", "tipo": "percentual", "preencheCaracteristica": "exportacao" }
+      ],
+      "cnaesSugeridos": ["1011", "1012"]
+    },
+    {
+      "id": "clinica_medica",
+      "macroSetor": "saude",
+      "setor": "Serviços médicos",
+      "segmento": "Clínica médica",
+      "subsegmentos": ["Multidisciplinar", "Especializada"],
+      "descricao": "Prestação de serviços médicos ambulatoriais — potencial elegibilidade a equiparação hospitalar e Fator R, ainda não calculados nesta fase.",
+      "arquetipos": ["servico"],
+      "caracteristicasDisponiveis": [
+        { "id": "possui_equiparacao_hospitalar", "label": "Possui ou pretende equiparação hospitalar", "tipo": "booleano" },
+        { "id": "atende_convenios", "label": "Atende convênios", "tipo": "booleano" },
+        { "id": "atende_sus", "label": "Atende SUS", "tipo": "booleano" },
+        { "id": "medicos_socios", "label": "Médicos são sócios (não apenas PJ contratados)", "tipo": "booleano" },
+        { "id": "possui_internacao", "label": "Possui estrutura de internação", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["fatorR", "equiparacaoHospitalar", "glosas", "convenios"],
+      "perguntasEspecificas": [
+        { "id": "q_receita_consultas", "pergunta": "Receita anual de consultas", "tipo": "numero" },
+        { "id": "q_receita_procedimentos", "pergunta": "Receita anual de procedimentos", "tipo": "numero" },
+        { "id": "q_receita_convenios", "pergunta": "Receita anual proveniente de convênios", "tipo": "numero" },
+        { "id": "q_glosas", "pergunta": "Qual % da receita de convênios é perdida em glosas?", "tipo": "percentual" }
+      ],
+      "cnaesSugeridos": ["8630"]
+    },
+    {
+      "id": "laboratorio_diagnostico",
+      "macroSetor": "saude",
+      "setor": "Diagnóstico",
+      "segmento": "Laboratório de análises/diagnóstico por imagem",
+      "descricao": "Serviços de apoio diagnóstico.",
+      "arquetipos": ["servico"],
+      "caracteristicasDisponiveis": [
+        { "id": "atende_convenios", "label": "Atende convênios", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["fatorR", "convenios"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["8640"]
+    },
+    {
+      "id": "transporte_rodoviario_cargas",
+      "macroSetor": "transporte_logistica",
+      "segmento": "Transporte rodoviário de cargas",
+      "subsegmentos": ["Municipal", "Interestadual", "Grãos", "Frigorificado"],
+      "descricao": "Perfil legado já revisado tributariamente no motor atual (calculo.ts).",
+      "arquetipos": ["transporte"],
+      "caracteristicasDisponiveis": [
+        { "id": "frota_propria", "label": "Possui frota própria", "tipo": "booleano" },
+        { "id": "frota_terceirizada", "label": "Utiliza agregados/frota terceirizada", "tipo": "booleano" },
+        { "id": "operacao_interestadual", "label": "Opera interestadual", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["frota", "combustivel", "terceiros", "capitalGiro"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["4930"]
+    },
+    {
+      "id": "transporte_passageiros",
+      "macroSetor": "transporte_logistica",
+      "segmento": "Transporte de passageiros",
+      "subsegmentos": ["Escolar", "Turismo", "Urbano"],
+      "descricao": "Transporte de pessoas — estrutura de custo parecida com carga (frota/combustível), receita e regime diferentes.",
+      "arquetipos": ["transporte"],
+      "caracteristicasDisponiveis": [
+        { "id": "frota_propria", "label": "Possui frota própria", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["frota", "combustivel"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["4922", "4929"]
+    },
+    {
+      "id": "industria_transformacao",
+      "macroSetor": "industria",
+      "segmento": "Indústria de transformação (genérico)",
+      "subsegmentos": ["Alimentos", "Bebidas", "Química", "Plástico", "Metalurgia", "Têxtil", "Móveis"],
+      "descricao": "Perfil genérico para indústria — subsegmentos são rótulos livres; especializações futuras (ex.: química com regras próprias) entram como novo perfil, não como alteração deste.",
+      "arquetipos": ["industria"],
+      "caracteristicasDisponiveis": [
+        { "id": "possui_energia_intensiva", "label": "Processo produtivo intensivo em energia", "tipo": "booleano" },
+        { "id": "possui_imobilizado_relevante", "label": "Ativo imobilizado relevante para a operação", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["credito_imobilizado"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["10", "11", "13", "20", "22", "24", "25"]
+    },
+    {
+      "id": "construcao_civil",
+      "macroSetor": "construcao_imobiliario",
+      "segmento": "Construção civil / incorporação",
+      "subsegmentos": ["Empreitada", "Incorporação", "Locação"],
+      "descricao": "Perfil legado já revisado tributariamente no motor atual (calculo.ts) — inclui construtoras e incorporadoras (SPE).",
+      "arquetipos": ["construcao"],
+      "caracteristicasDisponiveis": [
+        { "id": "opera_por_spe", "label": "Opera por SPE (sociedade de propósito específico)", "tipo": "booleano" },
+        { "id": "faz_locacao_imobiliaria", "label": "Também faz locação/administração imobiliária", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["regimeObra"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["41", "42", "43"]
+    },
+    {
+      "id": "imobiliaria",
+      "macroSetor": "construcao_imobiliario",
+      "segmento": "Imobiliária / administração de locação",
+      "descricao": "Intermediação e administração de locação imobiliária — distinto de construção/incorporação, mesmo macrosetor.",
+      "arquetipos": ["servico", "locacao"],
+      "caracteristicasDisponiveis": [],
+      "modulosAplicaveis": [],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["6822"]
+    },
+    {
+      "id": "varejo_generico",
+      "macroSetor": "comercio",
+      "setor": "Varejo",
+      "segmento": "Varejo (genérico)",
+      "subsegmentos": ["Vestuário", "Eletrônicos", "Materiais de construção", "Autopeças", "Móveis"],
+      "descricao": "Perfil genérico de varejo — comércio de mercadorias para consumidor final.",
+      "arquetipos": ["comercio"],
+      "caracteristicasDisponiveis": [
+        { "id": "possui_ecommerce", "label": "Vende por e-commerce", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": [],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["47"]
+    },
+    {
+      "id": "supermercado",
+      "macroSetor": "comercio",
+      "setor": "Varejo",
+      "segmento": "Supermercado / mercado / conveniência",
+      "descricao": "Varejo alimentar — alto giro de estoque, mix amplo de NCM.",
+      "arquetipos": ["comercio"],
+      "caracteristicasDisponiveis": [],
+      "modulosAplicaveis": ["estoque"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["4711"]
+    },
+    {
+      "id": "atacado_distribuicao",
+      "macroSetor": "comercio",
+      "setor": "Atacado",
+      "segmento": "Distribuição atacadista (genérico)",
+      "descricao": "Compra e revenda em volume para outros comerciantes/indústrias — combina-se com frigorífico, agro, etc. como atividade secundária em empresas multiatividade.",
+      "arquetipos": ["comercio"],
+      "caracteristicasDisponiveis": [],
+      "modulosAplicaveis": [],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["46"]
+    },
+    {
+      "id": "restaurante",
+      "macroSetor": "alimentacao",
+      "segmento": "Restaurante / bar / lanchonete",
+      "subsegmentos": ["Delivery", "Cozinha industrial"],
+      "descricao": "Serviço de alimentação — regime de apuração e crédito distintos do varejo alimentar.",
+      "arquetipos": ["servico", "comercio"],
+      "caracteristicasDisponiveis": [
+        { "id": "opera_delivery", "label": "Opera com delivery/marketplace", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": [],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["5611"]
+    },
+    {
+      "id": "consultoria_servicos_profissionais",
+      "macroSetor": "servicos",
+      "segmento": "Consultoria / serviços profissionais",
+      "subsegmentos": ["Contabilidade", "Advocacia", "Engenharia", "Arquitetura", "Marketing"],
+      "descricao": "Serviços profissionais intelectuais — perfil genérico de serviço, forte candidato a Fator R quando aplicável ao Simples.",
+      "arquetipos": ["servico"],
+      "caracteristicasDisponiveis": [],
+      "modulosAplicaveis": ["fatorR"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["69", "70", "71", "73"]
+    },
+    {
+      "id": "software_saas",
+      "macroSetor": "tecnologia",
+      "segmento": "Desenvolvimento de software / SaaS",
+      "subsegmentos": ["Plataforma", "Marketplace", "Licenciamento"],
+      "descricao": "Serviço/licenciamento digital recorrente — estrutura de custo concentrada em pessoal, quase sem estoque/insumo físico.",
+      "arquetipos": ["digital", "servico"],
+      "caracteristicasDisponiveis": [
+        { "id": "receita_recorrente", "label": "Receita predominantemente recorrente (assinatura)", "tipo": "booleano" },
+        { "id": "opera_marketplace", "label": "Opera como marketplace/intermediador", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["fatorR"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["6201", "6209"]
+    },
+    {
+      "id": "provedor_internet",
+      "macroSetor": "telecomunicacoes",
+      "segmento": "Provedor de internet / conectividade",
+      "descricao": "Infraestrutura e serviço de conectividade — receita recorrente, ativo de rede relevante.",
+      "arquetipos": ["digital", "servico"],
+      "caracteristicasDisponiveis": [
+        { "id": "possui_infraestrutura_propria", "label": "Possui infraestrutura de rede própria", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["credito_imobilizado"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["6110", "6120"]
+    },
+    {
+      "id": "meios_pagamento",
+      "macroSetor": "financeiro_pagamentos",
+      "segmento": "Adquirente / subadquirente / meios de pagamento",
+      "descricao": "Intermediação de pagamentos — grupo sinalizado no pedido como potencialmente sujeito a regras específicas relevantes; nenhuma regra modelada nesta fase.",
+      "arquetipos": ["financeiro", "digital"],
+      "caracteristicasDisponiveis": [],
+      "modulosAplicaveis": [],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["6619"]
+    },
+    {
+      "id": "locadora_bens",
+      "macroSetor": "locacao",
+      "segmento": "Locação de bens móveis (genérico)",
+      "subsegmentos": ["Veículos", "Máquinas e equipamentos", "Equipamentos médicos", "Equipamentos agrícolas"],
+      "descricao": "Locação de bens móveis — receita recorrente sobre ativo próprio, sem transferência de propriedade.",
+      "arquetipos": ["locacao"],
+      "caracteristicasDisponiveis": [
+        { "id": "possui_manutencao_propria", "label": "Manutenção da frota/parque é própria", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["credito_imobilizado"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["77"]
+    },
+    {
+      "id": "aviacao_agricola",
+      "macroSetor": "agronegocio",
+      "segmento": "Aviação agrícola / pulverização",
+      "descricao": "Perfil legado já revisado tributariamente no motor atual (calculo.ts).",
+      "arquetipos": ["servico", "agro"],
+      "caracteristicasDisponiveis": [
+        { "id": "usa_drone", "label": "Opera com drone (em vez de aeronave tripulada)", "tipo": "booleano" }
+      ],
+      "modulosAplicaveis": ["horaVoo", "hectare", "combustivel", "manutencao", "sazonalidade"],
+      "perguntasEspecificas": [],
+      "cnaesSugeridos": ["0161"]
+    }
+  ]
+}

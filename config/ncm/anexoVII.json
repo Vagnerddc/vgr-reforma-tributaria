@@ -1,0 +1,152 @@
+[
+  {
+    "item": 1,
+    "descricao": "Crustáceos (exceto lagostas e lagostim) e moluscos dos seguintes códigos e subposições da NCM/SH: a) 0306.1 e 0306.3, exceto os produtos da subposição 0306.11 e dos códigos 0306.15.00, 0306.31.00, 0306.34.00, 0306.39.10; e b) 0307.31.00, 0307.32.00, 0307.42.00, 0307.43, 0307.51.00, 0307.52.00, 0307.91.00 e 0307.92.00",
+    "ncmCandidatos": [],
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": 2,
+    "descricao": "Leite fermentado, bebidas e compostos lácteos, em conformidade com os requisitos da legislação específica, classificados nos códigos 0403.20.00, 0403.90.00 e 2202.99.00 da NCM/SH",
+    "ncmCandidatos": [
+      "0403.20.00",
+      "0403.90.00",
+      "2202.99.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 3,
+    "descricao": "Mel natural do código 0409.00.00 da NCM/SH",
+    "ncmCandidatos": [
+      "0409.00.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 4,
+    "descricao": "Farinha das posições 1101.00, 11.02, 11.05, 11.06 e 12.08 da NCM/SH; ressalvados os produtos relacionados no Anexo I",
+    "ncmCandidatos": [
+      "1101.00",
+      "11.02",
+      "11.05",
+      "11.06",
+      "12.08"
+    ],
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": 5,
+    "descricao": "Grumos e sêmolas de cereais dos códigos 1103.11.00 e 1103.19.00 da NCM/SH; ressalvados os produtos relacionados no Anexo I",
+    "ncmCandidatos": [
+      "1103.11.00",
+      "1103.19.00"
+    ],
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": 6,
+    "descricao": "Grãos de cereais das subposições 1104.1 e 1104.2 da NCM/SH; ressalvados os produtos relacionados no Anexo I",
+    "ncmCandidatos": [
+      "1104.1",
+      "1104.2"
+    ],
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": 7,
+    "descricao": "Amido de milho do código 1108.12.00 da NCM/SH",
+    "ncmCandidatos": [
+      "1108.12.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 8,
+    "descricao": "Óleos de soja, de milho, canola e demais óleos vegetais, em conformidade com os requisitos da legislação específica relativos ao consumo como alimento, classificados na subposição 1507.90 e nas posições 15.08, 15.11, 15.12, 15.13, 15.14 e 15.15 da NCM/SH",
+    "ncmCandidatos": [
+      "1507.90",
+      "15.08",
+      "15.11",
+      "15.12",
+      "15.13",
+      "15.14",
+      "15.15"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 9,
+    "descricao": "Massas alimentícias dos códigos 1902.20.00 e 1902.30.00 da NCM/SH",
+    "ncmCandidatos": [
+      "1902.20.00",
+      "1902.30.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 10,
+    "descricao": "Sucos naturais de fruta ou de produtos hortícolas sem adição de açúcar ou de outros edulcorantes e sem conservantes classificados na posição 20.09 da NCM/SH",
+    "ncmCandidatos": [
+      "20.09"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 11,
+    "descricao": "Polpas de frutas ou de produtos hortícolas sem adição de açúcar ou de outros edulcorantes e sem conservantes classificadas na posição 20.08 da NCM/SH",
+    "ncmCandidatos": [
+      "20.08"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 12,
+    "descricao": "Pão de Forma do código 1905.90.10 da NCM/SH",
+    "ncmCandidatos": [
+      "1905.90.10"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 13,
+    "descricao": "Extrato de tomate classificado no código 2002.90.00 da NCM/SH",
+    "ncmCandidatos": [
+      "2002.90.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 14,
+    "descricao": "Frutas, produtos hortícolas e demais produtos vegetais, sem adição de açúcar ou de outros edulcorantes, classificados nos capítulos 7 e 8 da NCM/SH, ressalvados as frutas de casca rija não regionais e os produtos relacionados nos Anexos I e XV e excetuadas as posições 07.11, 08.12 e 0814.00.00",
+    "ncmCandidatos": [],
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": 15,
+    "descricao": "Cereais do capítulo 10 e sementes e frutos oleaginosos classificados no capítulo 12, ambos da NCM/SH, ressalvados os produtos relacionados no Anexo I",
+    "ncmCandidatos": [
+      "10",
+      "12"
+    ],
+    "temExcecaoNaoModelada": true
+  },
+  {
+    "item": 16,
+    "descricao": "Produtos hortícolas, mesmo misturados entre si, apenas pré-cozidos ou cozidos em água ou vapor, sem adição de sal ou de quaisquer outros produtos e substâncias, classificados nas posições 20.04 e 20.05 e no código 2002.10.00 da NCM/SH",
+    "ncmCandidatos": [
+      "20.04",
+      "20.05",
+      "2002.10.00"
+    ],
+    "temExcecaoNaoModelada": false
+  },
+  {
+    "item": 17,
+    "descricao": "Fruta de casca rija regional, amendoins e outras sementes, mesmo misturados entre si, apenas torrados ou cozidos, sem adição de sal ou de quaisquer outros produtos e substâncias, classificados na subposição 2008.1 da NCM/SH",
+    "ncmCandidatos": [
+      "2008.1"
+    ],
+    "temExcecaoNaoModelada": false
+  }
+]
